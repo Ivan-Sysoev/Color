@@ -33,7 +33,7 @@ def color_proccent(color, proccent):
     return tuple([elem * proccent // 100 for elem in color])
 
 def color_range(color, proccent=10):
-    """Возражает градацию цвета от темного к яркому по заданному проценту"""
+    """Возращает градацию цвета от темного к яркому по заданному проценту"""
     result = []
     count = 100 // proccent
     for i in range(count - 1):
